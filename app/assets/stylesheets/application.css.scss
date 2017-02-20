@@ -1,0 +1,145 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+@import "library";
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+    a:link {
+      color: #6d1515;
+      border-bottom: 1px solid #e8e8e8;
+      text-decoration: none;
+    }
+    a:visited {
+      color: #6d1515;
+      border-bottom: 1px solid #e8e8e8;
+      text-decoration: none;
+    }
+    a:hover {
+      font-weight: bold;
+    }
+    .fa {
+      padding-right: 5px;
+      }
+
+    }
+    .photo {
+      width:600px;
+      height:500px;
+      @include background-image("ErinnSpringer2.jpg");
+      background-size: cover;
+      background-size: 100%;
+      background-repeat: no-repeat;
+
+    }
+  .main-header {
+
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 0px;
+      .name-header{
+        font-size: 40px;
+        padding-top: 200px;
+    }
+
+  }
+
+  .main-content {
+    max-width: calc(800px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 24px;
+    margin-top: 10px;
+     p {
+        padding: 10px;
+      }
+      }
+  .name-header, .career-header {
+    margin-right: 15px;
+  }
+
+  .career-header {
+    font-size: 30px;
+  }
+
+  .interests {
+    border-top: 1px solid #e8e8e8;
+    padding-top: 30px;
+    margin-top: 30px;
+  }
+
+
+.flex {
+  /*height: 300px;*/
+  margin-top: 30px;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.links {
+  width: 160px;
+  margin: auto;
+}
+li {
+  list-style-type:none;
+
+}
+
+.footer {
+  background-color: white;
+  width: 100%;
+  border-top: 1px solid #e8e8e8;
+
+  margin: 0 auto;
+  margin-top: 100px;
+  li .icons {
+    margin-right: 15px;
+  }
+  .year {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+    /*p {
+      margin-left: 95px;
+      float: left;
+      display: inline-block;
+      a:link, a:active, a:visited {
+          text-decoration: none;
+          color: #102356;
+      }
+    }*/
+
+
+
+}

@@ -1,0 +1,51 @@
+!!! 5
+%html
+  %head
+    %title Erinn Springer - Web Developer
+    = stylesheet_link_tag 'application', "data-turbolinks-track" => true
+    = stylesheet_link_tag 'print', media: 'print'
+    %script(src="https://use.fontawesome.com/672df74d4b.js")
+    = javascript_include_tag 'application', "data-turbolinks-track" => true
+    %link(href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet")
+    = csrf_meta_tags
+  %body
+
+  = yield
+  %div.footer
+    %div.flex.row
+      %ul.links
+        %li Social
+        %li
+          = link_to 'https://twitter.com/ErinnLSpringer' do
+            %icons.fa.fa-twitter
+            Tweets
+
+        %li
+          = link_to 'https://www.instagram.com/erinnlspringer/' do
+            %icons.fa.fa-instagram
+            Photos
+        %li
+          = link_to 'https://www.linkedin.com/in/erinnlspringer' do
+            %icons.fa.fa-linkedin
+            erinnlspringer
+
+      %ul.links
+        %li Others
+        %li
+          = link_to 'https://github.com/elspringer' do
+            %icons.fa.fa-github
+            Github
+
+        %li
+          = link_to 'https://sheddingcharlatans.com/' do
+            %icons.fa.fa-medium
+            Writing
+      %ul.links
+        %li.resume I'm currently taking on freelance projects. Here's #{link_to 'my resume', 'https://www.dropbox.com/s/9nbo8l6qr742rgj/My%20CV%20(1).pdf'}.
+    %div.flex.row.year
+      %p © 2017 Erinn Springer
+
+
+
+
+
