@@ -52,9 +52,9 @@
     .photo {
       width:600px;
       height:500px;
-      @include background-image("ErinnSpringer2.jpg");
+      @include background-image("ErinnSpringerSite.jpg");
       background-size: cover;
-      background-size: 100%;
+
       background-repeat: no-repeat;
 
     }
