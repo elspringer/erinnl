@@ -30,7 +30,8 @@
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-    font-family: 'Josefin Sans', sans-serif;
+
+    font-family: 'Antic Slab', serif;
 
     p {
       line-height: 25px;
@@ -66,7 +67,7 @@
 
     }
   .main-header {
-
+    text-align: center;
 
     margin-top: 0px;
       .name-header{
@@ -91,6 +92,7 @@
       }
       }
   .name-header, .career-header {
+    font-family: 'Josefin Sans', sans-serif;
     margin-right: 15px;
   }
 
@@ -103,7 +105,19 @@
     padding-top: 30px;
     margin-top: 30px;
   }
-
+.main-impressum {
+  max-width: calc(800px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 300px;
+   p {
+      padding: 10px;
+      font-family: 'Antic Slab', serif;
+      font-size: 20px;
+    }
+    }
 
 .flex {
   margin-top: 30px;
