@@ -32,7 +32,9 @@
     background: transparent;
 
     font-family: 'Antic Slab', serif;
-
+    h4{
+    font-family: 'Muli', sans-serif;
+    }
     p {
       line-height: 25px;
     }
@@ -72,9 +74,8 @@
     margin-top: 0px;
       .name-header{
         font-size: 40px;
-        font-weight: bold;
+        font-weight: 800;
         margin-bottom: 10px;
-        // padding-top: 200px;
     }
 
   }
@@ -92,7 +93,8 @@
       }
       }
   .name-header, .career-header {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
     margin-right: 15px;
   }
 
